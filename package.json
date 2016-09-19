@@ -1,6 +1,6 @@
 {
   "name": "zooid-octoblu-nav-logo",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "OctobluNavLogo",
   "main": "dist/bundle.js",
   "scripts": {

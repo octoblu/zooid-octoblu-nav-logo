@@ -11,4 +11,10 @@ chai.use(chaiEnzyme())
 chai.use(sinonChai)
 
 describe('<OctobluNavLogo />', () => {
+  describe('when given className', () => {
+    it('should merge custom className', () => {
+      const sut = mount(<OctobluNavLogo className="foo" />)
+      expect(sut).to.have.className('foo')
+    })
+  })
 })
